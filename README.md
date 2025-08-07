@@ -1,9 +1,11 @@
 # CRUD Database Manager
 Technical Test Avian - Emily Joyceline Gunawan
 
-Link Video Demo - https://drive.google.com/file/d/11js2e4QB0xDdsRQucbcU9TumGDzoPGZp/view?usp=sharing
-
 Website CRUD sederhana untuk mengelola 4 tabel database dengan fitur lengkap.
+
+## Video Demo
+Lihat video demo aplikasi di sini (https://drive.google.com/file/d/11js2e4QB0xDdsRQucbcU9TumGDzoPGZp/view?usp=sharing)
+
 ## Fitur
 
 ✅ **CRUD Lengkap** - Create, Read, Update, Delete untuk semua tabel  
@@ -134,6 +136,7 @@ B3,Golf
 - **Frontend**: HTML5, CSS3, Bootstrap 5.3
 - **Icons**: Font Awesome 6.0
 - **XAMPP**: Apache + MySQL + PHP
+
 
 
 

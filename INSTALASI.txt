@@ -1,0 +1,40 @@
+==========================================
+PANDUAN INSTALASI CRUD WEBSITE
+==========================================
+
+LANGKAH-LANGKAH INSTALASI:
+
+1. PERSIAPAN XAMPP
+   - Download dan install XAMPP jika belum ada
+   - Buka XAMPP Control Panel
+   - Start Apache dan MySQL
+   - Pastikan kedua service berjalan (hijau)
+
+2. SETUP FOLDER PROJECT
+   - Buka folder C:\xampp\htdocs\
+   - Buat folder baru: "crud-emily"
+   - Copy semua file project ke folder tersebut:
+     * index.php
+     * config.php
+     * database_setup.sql
+     * README.md
+     * .htaccess
+     * contoh_data_table_*.csv
+
+3. SETUP DATABASE
+   - Buka browser, ke: http://localhost/phpmyadmin
+   - Klik tab "SQL"
+   - Copy isi file database_setup.sql
+   - Paste ke text area dan klik "Go"
+   - Database "test" akan dibuat dengan 4 tabel
+
+4. TEST WEBSITE
+   - Buka browser
+   - Ke: http://localhost/crud-emily/
+   - Jika berhasil, akan muncul website dengan header Emily Joyceline
+
+5. TEST FITUR
+   - Coba tambah data manual
+   - Upload file CSV contoh
+   - Download Excel dan PDF
+   - Edit dan hapus data

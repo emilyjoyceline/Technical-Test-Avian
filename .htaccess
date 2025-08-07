@@ -1,0 +1,24 @@
+# Security settings untuk XAMPP
+Options -Indexes
+ServerSignature Off
+
+# Mencegah akses langsung ke file config
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Mencegah akses ke file SQL
+<Files "*.sql">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Error handling
+ErrorDocument 404 index.php
+ErrorDocument 403 index.php
+
+# PHP settings
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+php_value max_execution_time 300
